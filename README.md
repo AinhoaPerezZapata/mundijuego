@@ -32,4 +32,5 @@ Requisitos funcionales:
 Prototipo WEB: (PAGINAS)
 
 Inicio:
+
 ![image](https://user-images.githubusercontent.com/91693066/142046658-ad1782a0-570a-464f-a78e-63d3145cb217.png)
