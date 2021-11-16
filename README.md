@@ -1,52 +1,29 @@
-- [Título de proyecto](#título-de-proyecto)
-  - [Antecedentes](#antecedentes)
-  - [Requisitos funcionales](#requisitos-funcionales)
-  - [Mapa WEB](#mapa-web)
-  - [Mookup](#mookup)
-  - [Diseño de la BBDD](#diseño-de-la-bbdd)
-    - [Diseño relacional](#diseño-relacional)
-    - [Diseño final](#diseño-final)
-    - [Script de creación BBDD](#script-de-creación-bbdd)
-  - [Proyecto finalizado](#proyecto-finalizado)
-  - [Cumplimiento de requisitos](#cumplimiento-de-requisitos)
-  - [Ayuda](#ayuda)
-
-# Título de proyecto
-## Antecedentes
-Breve descripción del proyecto
-## Requisitos funcionales
-Se describen de forma concisa los requisitos funcionales de vuestra aplicación.
-Además de los requisitos de vuestra aplicación hay que añadir los siguientes:
-- Diseño responsive
-- Control de errores en formularios que deben incluir como mínimo un registro de usuario
-  - DNI
-  - Teléfono
-  - Mail
-  - Fecha de nacimiento
-  - Teléfono 
-  - Dirección
-  - Provincia (elegible desde un desplegable)
-  - Población (se rellenará según los datos de la provincia seleccionada.)
-- Acceso restringido a usuarios no registrados  
-## Mapa WEB
-Breve descripción del mapa web. Se debe incluir la imagen del mapa web de vuestro proyecto.
-Debe contener todo el itinerario de vuestra web. Todas las páginas y el hilo de navegación
-## Mookup
-Mookup del proyecto. Deben coincidir el número de bocetos con el número de pantallas que hayais mostrado en el mapa web
-## Diseño de la BBDD
-### Diseño relacional
-Se debe mostrar el diseño relacional. No lo que os muestra la aplicación MySQL Workbench o el gestor que usais. Quiero los diagrmas E-R con cajas para las entidades y rombos para las relaciones. Se deben tener en cuenta las cardinalidades.
-### Diseño final 
-Se muestra el diseño de la BBDD según el GUI que esteís usando. Deben aparecer todas las entidades en la 3FN, los campos de las tablas y las cardinalidades. 
-### Script de creación BBDD
-Scrip de creación de las BBDD, sin los datos. Cada una de las tablas con sus claves referenciadas. 
-El lector debe comprender lo que está leyendo, no se pone el script sin más, hay que explicarlo.
-## Proyecto finalizado
-Breve descripción del proyecto finalizado.
-## Cumplimiento de requisitos
-Se ponen los requisitos de vuestra aplicación y se marcan los requisitos que se han logrado y los que no. Y el motivo por el cual no se han podido lograr, o si se han logrado parcialmente.
-## Ayuda
-Instrucciones de cómo clonar el repositorio y hacerlo funcionar en una distribución con LAMP
-Crear un script en BASH que una vez clonado el repositorio se ejecute y realice todas las operaciones necesarias para su instalación. 
-
-
+Antecedentes:
+Para mi proyecto de página de pagina web he utilizado diferentes lenguajes de programación, como PHP y Javascript para el desarrollo general de la página, y para el diseño de la web se ha utilizado boostrap y estilos css.
+Requisitos funcionales:
+1.	El usuario se podrá registrar y loguear.
+2.	Si el usuario no cierra la sesión se queda logueada, es decir hasta que no le de a cerrar sesión no sale.
+3.	Solo los usuarios registrados pueden ver la noticia entera.
+4.	Los usuarios no registrados solo podrán ver el título de la noticia y mitad de la descripción.
+5.	El usuario registrado tendrá la opción de modificar su perfil, también tendrá la opción de recuperar la contraseña, si no se acuerda de ella.
+6.	Los administradores de la página son los únicos que podrán añadir o eliminar las noticias, es decir, los videos, fotos, descripción, etc… También ellos podrán modificar una noticia y eliminarla.
+7.	La página tendrá diferentes secciones, como es mi caso, pc, Nintendo, playstation, Xbox... Las secciones son administradas por el administrador de la página y son creadas en diferentes archivos .php.
+8.	La página principal tendrá varios carruseles en los que se muestran las consolas, estas se actualizan conforme se refresque la página.
+9.	El criterio que utilizo para mostrar los carruseles es que se vaya recogiendo las consolas que están reflejadas en la base de datos, estas consolas a base de comandos las elijo yo.
+10.	Diseño responsive.
+11.	Control de errores:
+•	Usuario
+•	Nombre
+•	Password
+•	Apellido1
+•	Apellido2
+•	Email
+•	Dirección
+•	DNI
+•	Teléfono
+•	Código Postal
+•	Provincia
+•	Comunidad Autónoma (Provincia)
+•	Rol: Usuario o Administrador
+12.	Acceso restringido a usuario no registrado.
+Prototipo WEB: (PAGINAS)
