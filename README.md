@@ -180,11 +180,14 @@ Estructura de la interface:
 
 Herramientas:
 
+
 Visual Studio Code: es un programa con numerosas características que respalda muchos aspectos del desarrollo de software.
 Workbench mysql: es una herramienta visual de diseño de bases de datos que integra desarrollo de software, administración de bases de datos, diseño de bases de datos, creación y mantenimiento para el sistema de base de datos MySQL.
 
 
 Lenguajes: 
+
+
 Javascript: JavaScript es un lenguaje de programación o de secuencias de comandos que te permite implementar funciones complejas en páginas web.
 CSS: CSS es un lenguaje utilizado en la presentación de documentos HTML.
 HTML: HTML es un lenguaje de marcado que se utiliza para el desarrollo de páginas de Internet. Se trata de la sigla que corresponde a Lenguaje de Marcas de Hipertexto, que podría ser traducido como Lenguaje de Formato de Documentos para Hipertexto.
