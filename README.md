@@ -1,5 +1,6 @@
 Antecedentes:
 Para mi proyecto de página de pagina web he utilizado diferentes lenguajes de programación, como PHP y Javascript para el desarrollo general de la página, y para el diseño de la web se ha utilizado boostrap y estilos css.
+
 Requisitos funcionales:
 1.	El usuario se podrá registrar y loguear.
 2.	Si el usuario no cierra la sesión se queda logueada, es decir hasta que no le de a cerrar sesión no sale.
