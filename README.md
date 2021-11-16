@@ -1,4 +1,5 @@
 Antecedentes:
+
 Para mi proyecto de página de pagina web he utilizado diferentes lenguajes de programación, como PHP y Javascript para el desarrollo general de la página, y para el diseño de la web se ha utilizado boostrap y estilos css.
 
 Requisitos funcionales:
@@ -29,3 +30,6 @@ Requisitos funcionales:
 12.	Acceso restringido a usuario no registrado.
 
 Prototipo WEB: (PAGINAS)
+
+Inicio:
+![image](https://user-images.githubusercontent.com/91693066/142046658-ad1782a0-570a-464f-a78e-63d3145cb217.png)
