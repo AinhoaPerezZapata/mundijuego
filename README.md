@@ -27,4 +27,5 @@ Requisitos funcionales:
 •	Comunidad Autónoma (Provincia)
 •	Rol: Usuario o Administrador
 12.	Acceso restringido a usuario no registrado.
+
 Prototipo WEB: (PAGINAS)
