@@ -2,7 +2,7 @@
 
 //Cargamos los archivos que vamos a usar
 require 'BD/conectorBD.php';
-require 'BD/DAOusuarios.php';
+require 'BD/DAOUsuarios.php';
 
 //Usamos las variables que vamos a coger
 $usuario = $_POST['usuario'];
