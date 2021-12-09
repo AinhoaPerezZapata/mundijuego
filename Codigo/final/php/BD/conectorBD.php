@@ -6,7 +6,7 @@
             $servidor = "";
            
         }else{
-            $servidor = "3306";
+            $servidor = "localhost";
             $usuario = "debianDB";
             $password = "debianDB";
             $bd = "final";
