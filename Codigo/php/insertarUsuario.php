@@ -20,7 +20,8 @@ $Provincia = $_POST['provincia'];
  $conexion = conectar(false);
  $consulta = insertarUsuarios($conexion,$usuario,$password,$email,$DNi,$Apellido1,$Apellido2,$ComunidadAutonoma,$Nombre,$Telefono,$CP,$Provincia);
 
- header('Location: panel.php');
-
+  if($consulta){
+   header('Location: panel.php');
+  }else {echo "no funciona"};
 
 ?>
