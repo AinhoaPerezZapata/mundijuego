@@ -22,6 +22,6 @@ $Provincia = $_POST['provincia'];
 
   if($consulta){
    header('Location: panel.php');
-  }else {echo "no funciona"};
+  }else echo "no funciona";
 
 ?>
