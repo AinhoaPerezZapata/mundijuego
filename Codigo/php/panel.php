@@ -1,7 +1,8 @@
 <?php
 //Cargamos los archivos que vamos a usar
-require "BD/DAOUsuarios.php";
 require "BD/conectorBD.php";
+require "BD/DAOUsuarios.php";
+
 
 session_start();
 
@@ -46,8 +47,6 @@ session_start();
             </tr>
 
             <?php
-                require "BD/DAOUsuarios.php";
-                require "BD/conectorBD.php";
 
                 //Nos conectamos a la base de datos y mostramos en este caso los usuarios
 
