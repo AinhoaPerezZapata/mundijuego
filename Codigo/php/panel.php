@@ -1,11 +1,4 @@
-<?php
-//Cargamos los archivos que vamos a usar
-require "BD/conectorBD.php";
-require "BD/DAOUsuarios.php";
 
-
-
-?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -45,7 +38,17 @@ require "BD/DAOUsuarios.php";
                 <button type ="submit"><a href="../insertarUsuario.html?idUsuario=<?php echo $fila['idUsuario']; ?>" value="insertar" name="insertar">Insertar Usuario</button>
             </tr>
 
+//Cargamos los archivos que vamos a usar
+require "BD/conectorBD.php";
+require "BD/DAOUsuarios.php";
+
+
+
+
             <?php
+                //Cargamos los archivos que vamos a usar
+                require "BD/conectorBD.php";
+                require "BD/DAOUsuarios.php";
 
                 //Nos conectamos a la base de datos y mostramos en este caso los usuarios
 
