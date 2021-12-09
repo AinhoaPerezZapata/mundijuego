@@ -41,7 +41,7 @@ error_reporting(E_ALL);
                 <th>Provincia</th>
                 <th>ComunidadAutonoma</th>
                 <th>Rol</th>
-                <button type ="submit"><a href="../insertarusuario.html?idUsuario=<?php echo $fila['idUsuario']; ?>" value="insertar" name="insertar">Insertar Usuario</button>
+                
             </tr>
 
 
