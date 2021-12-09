@@ -4,7 +4,6 @@ require "BD/conectorBD.php";
 require "BD/DAOUsuarios.php";
 
 
-session_start();
 
 ?>
 
