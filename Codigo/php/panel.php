@@ -59,7 +59,7 @@ session_start();
                         <?php 
                         
                             foreach($fila as $key => $value){?>
-                                <td> <?= $value ?> </td>
+                                <td> <?php echo $value ?> </td>
                                 <?php
                                     }
                                 ?>
