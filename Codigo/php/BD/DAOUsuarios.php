@@ -21,7 +21,6 @@
             $_SESSION['Password']=$usuario['Password'];
             $_SESSION['Nombre']=$usuario['Nombre'];
             $_SESSION['Email']=$usuario['Email'];
-            $_SESSION['DNi']=$usuario['DNi'];
             $_SESSION['Telefono']=$usuario['Telefono'];
             $_SESSION['Apellido1']=$usuario['Apellido1'];
             $_SESSION['Apellido2']=$usuario['Apellido2'];
@@ -29,6 +28,7 @@
             $_SESSION['Provincia']=$usuario['Provincia'];
             $_SESSION['ComunidadAutonoma']=$usuario['ComunidadAutonoma'];           
             $_SESSION['Rol']=$usuario['Rol'];
+	$_SESSION['DNi']=$usuario['DNi'];
     
         }
         function recuperar($conexion, $email){
