@@ -38,17 +38,17 @@
                 <button type ="submit"><a href="../insertarusuario.html?idUsuario=<?php echo $fila['idUsuario']; ?>" value="insertar" name="insertar">Insertar Usuario</button>
             </tr>
 
-                <hr>dddddddddddddd</hr>
+                <hr>aaaaaa</hr>
             <?php
                 //Cargamos los archivos que vamos a usar
                 require "BD/conectorBD.php";
                 require "BD/DAOUsuarios.php";
 
                 //Nos conectamos a la base de datos y mostramos en este caso los usuarios
-echo 'ddddddddddddddsdsdsd';
+echo 'bbbbbb';
                 $conexion = conectar(false);
                 $result = mostrarUsuario($conexion);
-echo 'ddddddddddddddsdsddfsdfsdfsfsdfsdfsdsd';
+echo 'ccccc';
                     while($fila=mysqli_fetch_assoc($result)){
                 ?>
 
