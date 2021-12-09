@@ -46,6 +46,9 @@ session_start();
             </tr>
 
             <?php
+                require "BD/DAOUsuarios.php";
+                require "BD/conectorBD.php";
+
                 //Nos conectamos a la base de datos y mostramos en este caso los usuarios
 
                 $conexion = conectar(false);
