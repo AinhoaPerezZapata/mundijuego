@@ -73,10 +73,7 @@ error_reporting(E_ALL);
                 <td><?php echo $fila['Provincia']  ?></td>
               <td><?php echo $fila['ComunidadAutonoma']  ?></td>
               <td><?php echo $fila['Rol']  ?></td>
-                
-                <td> <button ><a href="modificar.php?IdPlataforma= <?php  echo $fila['idPlataforma'];?>" value="modificar" name="modificar">Modificar</button></td>
-                <td> <button ><a href="eliminar.php?Idconsola= <?php  echo $fila['idPlataforma'];?>" value="eliminar" name="eliminar">Eliminar</button></td>
-            </tr>
+              </tr>
                 <td><button ><a href="modificarusuario.php?idUsuario= <?php echo $fila['idUsuario'];?>" value="modificar" name="modificar">Modificar</button></td>
                 <td><button ><a href="eliminarUsuario.php?idUsuario= <?php echo $fila['idUsuario'];?>" value="eliminar" name="eliminar">Eliminar</button></td>   
                          <?php  
