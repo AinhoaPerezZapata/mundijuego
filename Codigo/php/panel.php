@@ -47,9 +47,9 @@
                 //Nos conectamos a la base de datos y mostramos en este caso los usuarios
 
                 $conexion = conectar(false);
-                $result = mostrarUsuario($conexion);
+                $consulta = mostrarUsuario($conexion);
 
-                     while($fila=mysqli_fetch_array($result)){
+                     while($fila=mysqli_fetch_array($consulta)){
                         echo 'ccccc';
                 ?>
 
