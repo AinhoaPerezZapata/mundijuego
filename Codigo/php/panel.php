@@ -1,6 +1,6 @@
 <?php
 //Cargamos los archivos que vamos a usar
-require "BD/DAOusuarios.php";
+require "BD/DAOUsuarios.php";
 require "BD/conectorBD.php";
 
 session_start();
