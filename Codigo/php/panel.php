@@ -52,7 +52,7 @@ error_reporting(E_ALL);
                 $conexion = conectar(false);
                 $consulta = mostrarUsuario($conexion);
 
-                     while($fila=mysqli_fetch_assoc($consulta)){
+                     while($fila=mysqli_fetch_assoc($result)){
                         echo 'ccccc';
                 ?>
                 <?php
