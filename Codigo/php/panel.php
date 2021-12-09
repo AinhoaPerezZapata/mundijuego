@@ -53,15 +53,8 @@ error_reporting(E_ALL);
                 $consulta = mostrarUsuario($conexion);
 
                      while($fila=mysqli_fetch_array($consulta)){
-                        echo 'ccccc';
-                ?>
-                <?php
 
-               foreach($fila as $key => $value){?>
-                                <td> <?= $value ?> </td>
-                                <?php
-                                    }
-                                ?>
+                ?>
 
                 <td><button ><a href="modificarusuario.php?idUsuario= <?php echo $fila['idUsuario'];?>" value="modificar" name="modificar">Modificar</button></td>
                 <td><button ><a href="eliminarUsuario.php?idUsuario= <?php echo $fila['idUsuario'];?>" value="eliminar" name="eliminar">Eliminar</button></td>   
