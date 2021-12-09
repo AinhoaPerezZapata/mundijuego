@@ -56,14 +56,9 @@ session_start();
                     while($fila=mysqli_fetch_assoc($result)){?>
 
                 <tr>
-                        <?php 
-                        
-                            foreach($fila as $key => $value){?>
-                                <td> <?php echo $value ?> </td>
-                                <?php
-                                    }
-                                ?>
-
+                <td><?php echo $mostrar['idUsuario']  ?></td>
+                <td><?php echo $mostrar['Usuario']  ?></td>
+                <td ><b> <img src="<?php echo $mostrar['Imagen']?>" width="120"> </b></td>
                 <td><button ><a href="modificarusuario.php?idUsuario= <?php echo $fila['idUsuario'];?>" value="modificar" name="modificar">Modificar</button></td>
                 <td><button ><a href="eliminarUsuario.php?idUsuario= <?php echo $fila['idUsuario'];?>" value="eliminar" name="eliminar">Eliminar</button></td>
                     
