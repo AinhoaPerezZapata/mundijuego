@@ -56,7 +56,7 @@
         }
        
         function mostrarUsuario($conexion){
-            $consulta = "SELECT * FROM `Usuario`";
+            $consulta = "SELECT * FROM 'Usuario'";
             $resultado = mysqli_query($conexion, $consulta);
             return $resultado;
         }
