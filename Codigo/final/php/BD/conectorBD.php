@@ -7,8 +7,8 @@
            
         }else{
             $servidor = "localhost:3307";
-            $usuario = "root";
-            $password = "root";
+            $usuario = "debianDB";
+            $password = "debianDB";
             $bd = "final";
         }
       
