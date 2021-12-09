@@ -38,12 +38,6 @@
                 <button type ="submit"><a href="../insertarUsuario.html?idUsuario=<?php echo $fila['idUsuario']; ?>" value="insertar" name="insertar">Insertar Usuario</button>
             </tr>
 
-//Cargamos los archivos que vamos a usar
-require "BD/conectorBD.php";
-require "BD/DAOUsuarios.php";
-
-
-
 
             <?php
                 //Cargamos los archivos que vamos a usar
