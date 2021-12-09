@@ -12,7 +12,7 @@
             $bd = "final";
         }
       
-        $conector = mysqli_connect($servidor, $usuario, $password, $bd. 3306);
+        $conector = mysqli_connect($servidor, $usuario, $password, $bd, 3306);
         if ($conector ) {
             return $conector;
         }
