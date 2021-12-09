@@ -12,8 +12,8 @@ PASSDB="debianDB"
 HOST=$(hostname -I)
 WWW="/var/www/html/"
 # Nombre del fichero de los datos en el proyecto 
-DATOS="Datos.sql"
-BBDD="ProyectoIESLQ"
+DATOS="final.sql"
+BBDD="final"
 
 # Se toman los parámetros como USER y PASS de la BBDD
 if [ $# = 2 ];
@@ -30,5 +30,5 @@ mysqladmin -u $USERDB -p$USERDB create $BBDD
 mysql -u $USERDB -p$USERDB $BBDD < ../DataBase/$DATOS
 
 # Mostramos url de carga
-echo "http://$HOST/Codigo/Index.php"
+echo "http://$HOST/Codigo/final/php/index.php"
 
