@@ -41,7 +41,7 @@ session_start();
           <?php }
           ?>
             <?php if($_SESSION["Rol"]=="admin") {?>
-            <a href="panel.php">Panel de usuarios</a>
+            <a href="panel.php">Panel de usuarios1</a>
             <a href="adminplataforma.php">Plataformas</a>
             <a href="adminnoticias.php">Noticias</a>
             <a href="desloguear_usuario.php">Cerrar Sesion</a>
