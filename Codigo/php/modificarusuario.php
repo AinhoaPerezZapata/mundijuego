@@ -1,6 +1,6 @@
 <?php
 //Cargamos los archivos que vamos a usar
-require "BD/DAOusuarios.php";
+require "BD/DAOUsuarios.php";
 require "BD/conectorBD.php";
 //Nos conectamos a la base de datos
 $conexion = conectar(false);
