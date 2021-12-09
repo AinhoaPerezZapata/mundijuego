@@ -49,7 +49,7 @@
                 $conexion = conectar(false);
                 $result = mostrarUsuario($conexion);
 
-                    while($fila=mysqli_fetch_assoc($result)){
+                     while($fila=mysqli_fetch_array($result)){
                         echo 'ccccc';
                 ?>
 
