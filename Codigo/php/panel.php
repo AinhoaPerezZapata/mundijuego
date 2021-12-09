@@ -20,6 +20,7 @@ error_reporting(E_ALL);
         <nav class="nav-main1">
         <div align="right"><img src="../img/logo/logo.png"></div>
             <a href="../php/index.php">Inicio</a>
+            <a href="../insertarusuario.html">Insertar usuario</a>
             </nav>   
               <ul class="nav justify-content-end"></ul>
         </header>  
