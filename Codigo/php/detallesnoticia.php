@@ -44,7 +44,7 @@
 
     <div class="">
 
-    <?php if($_SESSION["Rol"]=="usuario") {
+    <?php if($_SESSION["Rol"]=="usuario" || $_SESSION["Rol"]=="admin" )) {
         
     echo $fila['Descripcion'];
         
