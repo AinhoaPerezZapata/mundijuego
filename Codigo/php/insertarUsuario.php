@@ -15,10 +15,11 @@ $ComunidadAutonoma = $_POST['comunidadautonoma'];
 $Telefono = $_POST['telefono'];
 $CP = $_POST['codigopostal'];
 $Provincia = $_POST['provincia'];
+$Direccion = $_POST['direccion'];
 
 //Nos conectamos a la base de datos y a la consulta
  $conexion = conectar(false);
- $consulta = insertarUsuarios($conexion,$usuario,$password,$email,$DNi,$Apellido1,$Apellido2,$ComunidadAutonoma,$Nombre,$Telefono,$CP,$Provincia);
+ $consulta = insertarUsuarios($conexion,$usuario,$password,$email,$DNi,$Apellido1,$Apellido2,$ComunidadAutonoma,$Nombre,$Telefono,$CP,$Provincia,$Direccion);
 
   if($consulta){
    header('Location: panel.php');
