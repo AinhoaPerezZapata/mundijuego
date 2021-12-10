@@ -17,16 +17,19 @@
       </nav>  
       <div class="contenedor">
       <form action="php/contraseña_nueva.php" method="POST">
+      <div class="card registro">
       <div class="card-body">                
         <label>Contraseña nueva:</label>
         <input type="text" name="contrasena_nueva" id="contrasena_nueva">
         <span id="Rcontrasena__error" class="error">la contraseña del usuario debe tener minimo 8 caracteres y al menos una mayuscula, un numero y un caracter especial</span><br>
-        <button type="submit" class="btn btn-primary">Enviar</button>
+        <div class="form-group mb-10">
+            <button class="btn btn-primary" type="submit" name="submit" id="boton">Enviar</button>
+        </div>
         <input type="hidden" name="idUsuario">
       </div>
       </div>
       </form>
-
+      </div>
 <script src="js/contraseña_nueva.js"></script>
     </body>
         <!-- AQUI EL JS QUE HAGA QUE TARDE EN CARGAR LA WEB -->
