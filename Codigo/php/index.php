@@ -50,11 +50,10 @@ session_start();
           <?php }
           ?>
       <!-- Busqueda -->
-				<form action="buscador.php" method="post">
-					<input type="text" placeholder="Buscar" name="Buscar">
-						<button type="submit" name="submit">Buscar</button>
-					</form>
-    </nav>
+	<form action="buscador.php" method="post">
+		<input type="text" placeholder="Buscar" name="Buscar">
+		<button type="submit" name="submit">Buscar</button>
+	</form>
     <hr>
 
     <nav class="nav-main2">
