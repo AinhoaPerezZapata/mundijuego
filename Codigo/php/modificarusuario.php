@@ -24,10 +24,6 @@ $idUsuario = $_GET['idUsuario'];
     <nav class="nav-main1">
     <div align="right"><img src="../img/logo/logo.png"></div>
         <a href="../php/index.php">Inicio</a>
-        <a href="videojuegos.php">Videojuegos</a>
-        <a id="link" class="nav-link active" aria-current="page" href="../login.html">Login</a>
-        <a id="link" class="nav-link" href="../ingresar_usuario.html">Registro</a>
-        <a href="../mapasitio.html">Mapa del sitio</a>
     </nav>  
     <br>
     
