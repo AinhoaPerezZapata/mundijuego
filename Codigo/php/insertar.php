@@ -8,7 +8,7 @@ $Nombre = $_POST["Nombre"];
 $ImagenesN=$_FILES['Imagen']['name'];
 $imagenA=$_FILES['Imagen']['tmp_name'];
 $rutaImg="../img/".$ImagenesN;
-
+move_uploaded_file($imagenA,$rutaImg);
 //Nos conectamos a la base de datos y a la consulta
 $conexion = conectar(false);
 $consulta = insertarProductos($conexion, $Nombre, $rutaImg);
