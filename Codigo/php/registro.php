@@ -24,7 +24,7 @@ $Provincia = $_POST['provincia'];
 
 //Nos conectamos a la base de datos y a la consulta
 $conexion = conectar(false);
-$consulta = insertarUsuarios($conexion,$Usuario,$Password,$Email,$DNi,$Apellido1,$Apellido2,$ComunidadAutonoma,$Nombre,$Telefono,$CP,$Provincia);
+$consulta = insertarUsuario($conexion,$Usuario,$Password,$Email,$DNi,$Apellido1,$Apellido2,$ComunidadAutonoma,$Nombre,$Telefono,$CP,$Provincia,$Direccion,$Rol);
 
 //Recorremos la consulta
 if($consulta){
