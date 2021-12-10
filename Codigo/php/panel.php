@@ -69,7 +69,6 @@ error_reporting(E_ALL);
               <td><?php echo $fila['Telefono']  ?></td>
                 <td><?php echo $fila['Email']  ?></td>
                 <td><?php echo $fila['DNi']  ?></td>
-                <td><?php echo $fila['Password']  ?></td>
                 <td><?php echo $fila['CP']  ?></td>
                 <td><?php echo $fila['Provincia']  ?></td>
               <td><?php echo $fila['ComunidadAutonoma']  ?></td>
