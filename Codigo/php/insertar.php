@@ -10,7 +10,7 @@ error_reporting(E_ALL);
 require "BD/DAOplataforma.php";
 require "BD/conectorBD.php";
 //Usamos las variables que vamos a coger
-$Nombre = $_POST["Nombre"];
+$Nombre = $_POST['Nombre'];
 $ImagenesN=$_FILES['Imagen']['name'];
 $imagenA=$_FILES['Imagen']['tmp_name'];
 $rutaImg="../img/".$ImagenesN;
