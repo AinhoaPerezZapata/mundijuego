@@ -17,6 +17,7 @@ $CP = $_POST['codigopostal'];
 $Provincia = $_POST['provincia'];
 $Direccion = $_POST['direccion'];
 $Rol = $_POST['rol'];
+$FechaNacimiento = $_POST['fechanacimiento'];
 //Nos conectamos a la base de datos y a la consulta
  $conexion = conectar(false);
  $consulta = insertarUsuario($conexion,$Usuario,$Password,$Email,$DNi,$Apellido1,$Apellido2,$ComunidadAutonoma,$Nombre,$Telefono,$CP, $Direccion, $Provincia, $FechaNacimiento,$Rol);
