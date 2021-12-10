@@ -4,9 +4,9 @@ require 'BD/conectorBD.php';
 require 'BD/DAOUsuarios.php';
 
 //Usamos las variables que vamos a coger
-$usuario = $_POST['usuario'];
-$password = $_POST['password'];
-$email = $_POST['email'];
+$Usuario = $_POST['usuario'];
+$Password = $_POST['password'];
+$Email = $_POST['email'];
 $DNi = $_POST['dni'];
 $Apellido1 = $_POST['apellido1'];
 $Apellido2 = $_POST['apellido2'];
@@ -19,7 +19,7 @@ $Direccion = $_POST['direccion'];
 
 //Nos conectamos a la base de datos y a la consulta
  $conexion = conectar(false);
- $consulta = insertarUsuarios($conexion,$usuario,$password,$email,$DNi,$Apellido1,$Apellido2,$ComunidadAutonoma,$Nombre,$Telefono,$CP,$Provincia,$Direccion,$Rol);
+ $consulta = insertarUsuarios($conexion,$Usuario,$Password,$Email,$DNi,$Apellido1,$Apellido2,$ComunidadAutonoma,$Nombre,$Telefono,$CP,$Provincia,$Direccion,$Rol);
 
   if($consulta){
    header('Location: panel.php');
