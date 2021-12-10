@@ -24,7 +24,7 @@ if(mysqli_num_rows($consulta) == 1)
     $fila = mysqli_fetch_array($consulta));
     crearSesion($fila);
     header("Location: index.php");
-}eho('sdsd');
+}
 else
 {
     $consulta = consultaUsuarios($conexion, $usuario);
