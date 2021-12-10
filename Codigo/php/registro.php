@@ -10,12 +10,12 @@ require 'BD/conectorBD.php';
 require 'BD/DAOUsuarios.php';
 
 //Usamos las variables que vamos a coger
-$usuario = $_POST['usuario'];
+$Usuario = $_POST['usuario'];
 $Nombre = $_POST['nombre'];
-$password = $_POST['password'];
+$Password = $_POST['password'];
 $Apellido1 = $_POST['apellido1'];
 $Apellido2 = $_POST['apellido2'];
-$email = $_POST['email'];
+$Email = $_POST['email'];
 $DNi = $_POST['dni'];
 $Telefono = $_POST['telefono'];
 $CP = $_POST['codigopostal'];
