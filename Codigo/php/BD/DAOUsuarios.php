@@ -43,12 +43,12 @@
         return $resultado;
     }
 
-        function insertarUsuarios($conexion,$Usuario,$Password,$Email,$DNi,$Apellido1,$Apellido2,$ComunidadAutonoma,$Nombre,$Telefono,$CP,$Provincia,$Direccion){
-            $consulta = "INSERT INTO Usuario ( `Usuario`, `Password`, `Email`, `DNi`, `Apellido1`, `Apellido2`, `ComunidadAutonoma`, `Nombre`, `Telefono`, `CP`, `Provincia`, `Direccion`) VALUES ('$Usuario', '$Password', '$Email', '$DNi', '$Apellido1', '$Apellido2', '$ComunidadAutonoma', '$Nombre', '$Telefono', '$CP', '$Provincia', '$Direccion', 'usuario')";
+        function insertarUsuarios($conexion,$usuario,$password,$email,$DNi,$Apellido1,$Apellido2,$ComunidadAutonoma,$Nombre,$Telefono,$CP,$Provincia){
+            $consulta = "INSERT INTO usuario ( `Usuario`, `Password`, `Nombre`, `Apellido1`, `Apellido2`, `Telefono`, `Email`, `CP`, `Provincia`, `ComunidadAutonoma`, `Rol`) VALUES ('$usuario', '$password', '$Nombre', '$Apellido1', '$Apellido2', '$Telefono', '$email', '$CP', '$Provincia', '$ComunidadAutonoma', 'usuario')";
 
             $resultado = mysqli_query($conexion, $consulta);
             return $resultado;
-        }
+	}
         function insertarUsuario($conexion,$Usuario,$Password,$Email,$DNi,$Apellido1,$Apellido2,$ComunidadAutonoma,$Nombre,$Telefono,$CP,$Provincia,$Direccion){
             $consulta = "INSERT INTO Usuario ( `Usuario`, `Password`, `Email`, `DNi`, `Apellido1`, `Apellido2`, `ComunidadAutonoma`, `Nombre`, `Telefono`, `CP`, `Provincia`, `Direccion`) VALUES ('$Usuario', '$Password', '$Email', '$DNi', '$Apellido1', '$Apellido2', '$ComunidadAutonoma', '$Nombre', '$Telefono', '$CP', '$Provincia', '$Direccion', 'usuario')";
 
