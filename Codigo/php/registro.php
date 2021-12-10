@@ -21,10 +21,10 @@ $ComunidadAutonoma = $_POST['comunidadautonoma'];
 $Telefono = $_POST['telefono'];
 $CP = $_POST['codigopostal'];
 $Provincia = $_POST['provincia'];
-$Rol = $_POST['rol'];
+
 //Nos conectamos a la base de datos y a la consulta
 $conexion = conectar(false);
-$consulta = insertarUsuario($conexion,$Usuario,$Password,$Email,$DNi,$Apellido1,$Apellido2,$ComunidadAutonoma,$Nombre,$Telefono,$CP,$Provincia,$Direccion,$Rol);
+$consulta = insertarUsuarios($conexion,$Usuario,$Password,$Email,$DNi,$Apellido1,$Apellido2,$ComunidadAutonoma,$Nombre,$Telefono,$CP,$Provincia,$Direccion);
 
 //Recorremos la consulta
 if($consulta){
