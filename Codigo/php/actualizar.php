@@ -17,6 +17,7 @@ $Nombre = $_POST["Plataforma"];
 $ImagenesN=$_FILES['Imagen']['name'];
 $imagenA=$_FILES['Imagen']['tmp_name'];
 $rutaImg="../img/".$ImagenesN;
+$idPlataforma = $_POST['Idplataforma'];
 
 move_uploaded_file($imagenA,$rutaImg);
 if(empty($_FILES['Imagen']['name'])){
