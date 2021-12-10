@@ -21,7 +21,7 @@ $consulta = consultaLogin($conexion, $usuario, $password);
 
 if(mysqli_num_rows($consulta) == 1)
 {
-    $fila = mysqli_fetch_array($consulta);
+    $fila = mysqli_fetch_array($consulta));
     crearSesion($fila);
     header("Location: index.php");
 }
