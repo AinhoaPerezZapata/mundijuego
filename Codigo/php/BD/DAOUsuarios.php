@@ -29,6 +29,7 @@
             $_SESSION['ComunidadAutonoma']=$usuario['ComunidadAutonoma'];
 	$_SESSION['Direccion']=$usuario['Direccion'];
 	$_SESSION['DNi']=$usuario['DNi'];
+		$_SESSION['Rol']=$usuario['Rol'];
     
         }
         function recuperar($conexion, $email){
