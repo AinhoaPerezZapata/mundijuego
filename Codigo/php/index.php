@@ -49,10 +49,10 @@ session_start();
           <?php }
           ?>
       <!-- Busqueda -->
-      <form action="buscador.php" method="get" class="form_search">
-        <input type="text" name="busqueda" id="busqueda" placeholder="Buscar">
-        <input type="submit" value="Buscar" class="btn_search">
-      </form>
+				<form action="buscador.php" method="post">
+					<input type="text" placeholder="Buscar" name="Buscar">
+						<button type="submit" name="submit">Buscar</button>
+					</form>
     </nav>
     <hr>
 
