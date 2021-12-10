@@ -26,10 +26,10 @@
             $_SESSION['Apellido2']=$usuario['Apellido2'];
             $_SESSION['CP']=$usuario['CP'];
             $_SESSION['Provincia']=$usuario['Provincia'];
-            $_SESSION['ComunidadAutonoma']=$usuario['ComunidadAutonoma'];           
+            $_SESSION['ComunidadAutonoma']=$usuario['ComunidadAutonoma'];
+		$_SESSION['Direccion']=$usuario['Direccion'];
             $_SESSION['Rol']=$usuario['Rol'];
 	$_SESSION['DNi']=$usuario['DNi'];
-	$_SESSION['Direccion']=$usuario['Direccion'];
     
         }
         function recuperar($conexion, $email){
