@@ -36,12 +36,12 @@ session_start();
 
           <?php } 
           ?>
-          <?php if($_SESSION["Rol"]=="Usuario") {?>
+          <?php if($_SESSION["Rol"]=="usuario") {?>
             <a href="perfil.php">Perfil</a>
             <a href="desloguear_usuario.php">Cerrar Sesion</a>
           <?php }
           ?>
-            <?php if($_SESSION["Rol"]=="Admin") {?>
+            <?php if($_SESSION["Rol"]=="admin") {?>
             <a href="panel.php">Panel de usuarios</a>
             <a href="adminplataforma.php">Plataformas</a>
             <a href="adminnoticias.php">Noticias</a>
