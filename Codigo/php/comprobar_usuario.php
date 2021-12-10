@@ -9,7 +9,6 @@ error_reporting(E_ALL);
 
 require "BD/conectorBD.php";
 require "BD/DAOUsuarios.php";
-//Usamos las variables que vamos a coger
   
 $usuario = $_POST["usuario"];
 $password = $_POST["password"];
