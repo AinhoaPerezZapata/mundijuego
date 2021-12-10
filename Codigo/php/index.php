@@ -54,6 +54,7 @@ session_start();
 		<input type="text" placeholder="Buscar" name="Buscar">
 		<button type="submit" name="submit">Buscar</button>
 	</form>
+	</nav>
     <hr>
 
     <nav class="nav-main2">
