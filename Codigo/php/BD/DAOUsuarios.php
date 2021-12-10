@@ -6,7 +6,7 @@
 	}
 
 	function consultaLogin($conexion, $usuario, $password){
-        $consulta = "SELECT * FROM usuario WHERE Usuario = '$usuario' AND Password = '$password'";
+        $consulta = "SELECT * FROM usuario WHERE usuario = '$usuario' AND password = '$password'";
         $resultado = mysqli_query($conexion, $consulta);
         return $resultado;
     } 
