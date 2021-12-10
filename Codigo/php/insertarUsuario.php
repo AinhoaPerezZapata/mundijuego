@@ -19,7 +19,7 @@ $Direccion = $_POST['direccion'];
 
 //Nos conectamos a la base de datos y a la consulta
  $conexion = conectar(false);
- $consulta = insertarUsuarios($conexion,$usuario,$password,$email,$DNi,$Apellido1,$Apellido2,$ComunidadAutonoma,$Nombre,$Telefono,$CP,$Provincia,$Direccion);
+ $consulta = insertarUsuarios($conexion,$usuario,$password,$email,$DNi,$Apellido1,$Apellido2,$ComunidadAutonoma,$Nombre,$Telefono,$CP,$Provincia,$Direccion,$Rol);
 
   if($consulta){
    header('Location: panel.php');
