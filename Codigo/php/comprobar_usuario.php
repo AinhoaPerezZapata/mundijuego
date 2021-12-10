@@ -10,8 +10,8 @@ error_reporting(E_ALL);
 require "BD/conectorBD.php";
 require "BD/DAOUsuarios.php";
   
-$usuario = $_POST["Usuario"];
-$password = $_POST["Password"];
+$usuario = $_POST["usuario"];
+$password = $_POST["password"];
 //Nos conectamos a la base de datos y a la consulta
 
 $conexion = conectar(false);
