@@ -45,7 +45,7 @@ session_start();
                 <th>Rol</th>
                 <th>DNI</th>
                 <th>FechaNacimiento</th>
-                <button type ="submit"><a href="../insertarUsuario.html?idUsuario=<?php echo $fila['idUsuario']; ?>" value="insertar" name="insertar">Insertar Usuario</button>
+                <button type ="submit"><a href="../insertarusuario.html?idUsuario=<?php echo $fila['idUsuario']; ?>" value="insertar" name="insertar">Insertar Usuario</button>
             </tr>
 
             <?php
