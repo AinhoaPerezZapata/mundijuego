@@ -8,7 +8,7 @@ error_reporting(E_ALL);
 //Cargamos los archivos que vamos a usar
 
 require 'BD/conectorBD.php';
-require 'BD/DAOusuarios.php';
+require 'BD/DAOUsuarios.php';
 
 session_start();
 
