@@ -11,11 +11,13 @@ require "BD/DAOplataforma.php";
 require "BD/conectorBD.php";
 //Usamos las variables que vamos a coger
 $Nombre = $_POST['Nombre'];
+echo $Nombre;
 $ImagenesN=$_FILES['Imagen']['name'];
 $imagenA=$_FILES['Imagen']['tmp_name'];
 $rutaImg="../img/".$ImagenesN;
 move_uploaded_file($imagenA,$rutaImg);
-
+echo $rutaImg;
+die;
 //Nos conectamos a la base de datos y a la consulta
 $conexion = conectar(false);
 $consulta = insertarProductos($conexion, $Nombre, $rutaImg);
