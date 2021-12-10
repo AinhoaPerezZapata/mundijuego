@@ -1,6 +1,6 @@
 <?php 
     function consultaUsuarios($conexion, $usuario){
-		$consulta = "SELECT * FROM usuario WHERE Usuario = '$usuario'";
+		$consulta = "SELECT * FROM usuario WHERE usuario = '$usuario'";
         $resultado = mysqli_query($conexion, $consulta);
         return $resultado;
 	}
