@@ -3,63 +3,20 @@ if (empty($_POST['submit'])) {
     $busquedaArticulo = $_POST['Buscar'];
 
 
-        $sql = "SELECT * FROM Proyectos WHERE idProyecto >0 AND TituloProyecto  LIKE '%$busquedaArticulo%'" ;
+        $mostrarNoticias = "SELECT * FROM Noticia WHERE idNoticias  AND Titulo  LIKE '%$busquedaArticulo%'" ;
 
-        $result = $conexion->query($sql);
+        $result = $conexion->query($mostrarNoticias);
         while ($row = $result->fetch_assoc()) {
          ?>
-            <div class="ajusteTexto">
-                <div class="TituloDeContenidos">
-                    <td><?php echo "Título de proyecto: " ?></td>
-                    <td><?php echo $row['TituloProyecto'] ?></td>
+                    <td><?php echo "Titulo Noticia " ?></td>
+                    <td><?php echo $row['Titulo'] ?></td>
                     <br>
-                    <td><?php echo "Modelo Utilizado: " ?></td>
-                    <td><?php echo $row['ModeloArduino'] ?></td>
+                    <td><?php echo "Plataforma: " ?></td>
+                    <td><?php echo $row['NombreP'] ?></td>
                     <br>
-                    <td><?php echo "Nivel de dificultad: " ?></td>
-<?php
-        $nivelDeConocimientoBasico=0;
-        $nivelDeConocimientoMedio=5;
-                if($row['nivelConocimiento']==$nivelDeConocimientoBasico){
-                    echo  "Básico";
-                }elseif($row['nivelConocimiento']==$nivelDeConocimientoMedio){
-                    echo "Medio";
-                }else{
-                    echo "Avanzado";
-                }
 
-?>
-                </div>
-            </div>
-    <div class="fila">
-        <div class="columna">
-        <a class="CatalogoEfecto" href="../Proyectos/proyectos.php?id=<?php echo $row['idProyecto']?>"> <img  title="Haga clic en la imagen para acceder a este contenido" class="Catalogo" src="<?php echo $row['ImagenProyecto']; ?>"></a>   
-        </div>
-
-        <div class="columna">
-            <img  class="Catalogo" src="<?php echo $row['ProyectoMini1']; ?>">
-        </div>
-        <div class="columna">
-            <img  class="Catalogo" src="<?php echo $row['ProyectoMini2']; ?>">
-        </div>
-        </div>
-    </div>
     <br>
-    <div class="
-    
-    <?php
-
-    if(!$_SESSION['name']){
-        
-        echo "interiorcontenedorDescripcionIncompleta";
-
-        }else{
-
-        echo "interiorcontenedorDescripcionCompactaUserLogueado";
-
-        }
-    ?>">
-        <tr><td><?php echo $row['DescripcionProyecto'] ?></td></tr>
+        <tr><td><?php echo $row['Descripcion'] ?></td></tr>
     </div>      
 <?php 
     }    
