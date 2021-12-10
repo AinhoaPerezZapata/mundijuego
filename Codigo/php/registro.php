@@ -50,6 +50,7 @@ echo('<br>';
      echo('fechanacimiento' );
 echo('<br>';
 
+     die;
 //Nos conectamos a la base de datos y a la consulta
 $conexion = conectar(false);
 $consulta = insertarUsuarios($conexion,$usuario,$password,$email,$DNi,$Apellido1,$Apellido2,$ComunidadAutonoma,$Nombre,$Telefono,$CP, $Direccion, $Provincia, $FechaNacimiento);
