@@ -31,4 +31,5 @@ mysql -u $USERDB -p$USERDB $BBDD < ../DataBase/$DATOS
 
 # Mostramos url de carga
 echo "http://$HOST/Codigo/php/index.php"
+sudo chmod -R 777 /var/www/html/codigo/img/*
 
