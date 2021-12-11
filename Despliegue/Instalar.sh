@@ -32,5 +32,5 @@ mysql -u $USERDB -p$USERDB $BBDD < ../DataBase/$DATOS
 # Mostramos url de carga
 echo "http://$HOST/Codigo/php/index.php"
 sleep 5
-sudo chmod -R +777 /var/www/html/Codigo/img/*
+sudo chmod -R +777 /var/www/html/Codigo/img
 
