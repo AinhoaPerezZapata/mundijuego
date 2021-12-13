@@ -190,10 +190,11 @@ session_start();
     </section>
 
     <hr></hr>
-        <section class="cards-banner-one">
-      <div class="content">
-        <h2>VIDEO DESTACADO</h2>
-        <hr>
+    <div class="container-fluid">
+            <section class="contacto row justify-content-center">
+                <div class="col-12 col-md-9 text-center">
+                    <h2 class="subtitulo"><span>Video Destacado</span></h2>
+                </div>
         <!-- lorem 20 -->
         <h2>20 PRÓXIMOS JUEGOS PS4/PS5/XBOX ONE/SERIES X/PC PARA 2021</h2>
         <div style= text-align:center;><iframe width="850" height="400"  src="https://www.youtube.com/embed/eE0NoRDXpsY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
