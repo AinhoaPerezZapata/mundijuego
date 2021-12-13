@@ -19,7 +19,6 @@
     <div align="right"><img src="../img/logo/logo.png"></div>
 	    <a href="../php/index.php">Inicio</a>
 	    <a id="link" class="nav-link active" aria-current="page" href="../login.html">Login</a>
-	    <a id="link" class="nav-link" href="../ingresar_usuario.html">Registro</a>
   </nav>
 	<br>
 	<div class="row">
