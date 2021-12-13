@@ -17,8 +17,6 @@
   <nav class="nav-main1">
     <div align="right"><img src="../img/logo/logo.png"></div>
 	    <a href="../php/index.php">Inicio</a>
-	    <a id="link" class="nav-link active" aria-current="page" href="../login.html">Login</a>
-	    <a id="link" class="nav-link" href="../ingresar_usuario.html">Registro</a>
   </nav>
 	<br>
 	<div class="row">
@@ -85,13 +83,6 @@
 			</section>
 	</div>
 
-				<iframe class="col-12 col-md-9" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3256.649031960611!2d-2.9481130486872074!3d35.28985138019059!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd77058d3fb51753%3A0x3655270d62269458!2sInstituto%20de%20Educaci%C3%B3n%20Secundaria%20Ies%20Leopoldo%20Queipo!5e0!3m2!1ses!2ses!4v1613159446977!5m2!1ses!2ses" width="100%" height="250" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
-				<div class="w-100 mb-4"></div>
-            <p class="border-bottom border-top">
-            <h1>Teléfono: 952678462</h1>
-            </p>
-			</section>
-	</div>
       
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
 	<script src="http://1000hz.github.io/bootstrap-validator/dist/validator.min.js"></script>
