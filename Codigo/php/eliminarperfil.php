@@ -13,6 +13,6 @@ $idUsuario = $_GET['idUsuario'];
 
 $consulta = eliminarPerfil($conexion, $idUsuario);
 
-header('Location: index.php');
+header('Location: desloguear_usuario.php');
 
 ?>
