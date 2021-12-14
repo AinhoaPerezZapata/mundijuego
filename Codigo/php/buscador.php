@@ -42,6 +42,7 @@ error_reporting(E_ALL);
     
 	//Recorre la consulta y muestra la información
 echo($articulo);
+		die;
 		while ($mostrar=mysqli_fetch_array($consulta)) {
 		
 		?>
