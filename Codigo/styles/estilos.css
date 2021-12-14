@@ -60,7 +60,10 @@ p{
   align-items: center;
   height: 60px;
   padding: 20px 0;
-
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 999;
 }
 .nav-main1 a {
   display: inline-block;
