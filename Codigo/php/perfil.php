@@ -64,7 +64,7 @@ session_start();
             <td> <?php echo $_SESSION['Dni'] ?></td>
             <td> <?php echo $_SESSION['FechaNacimiento'] ?></td>
             <td> <button ><a href="eliminarperfil.php?idUsuario=<?php  echo $_SESSION['idUsuario'];?>" value="eliminar" name="eliminar">Eliminar usuario</button></td>
-            <td> <button ><a href="modificarPerfil.php?idUsuario=<?php  echo $_SESSION['idUsuario'];?>" value="modificar" name="modificar">Modificar</button></td>
+            <td> <button ><a href="modificarPerfil.php?id=<?php  echo $_SESSION['idUsuario'];?>" value="modificar" name="modificar">Modificar</button></td>
         <tr> 
             </tr>               
     </table>
