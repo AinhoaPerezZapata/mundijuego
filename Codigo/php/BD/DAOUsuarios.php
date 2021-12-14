@@ -76,7 +76,7 @@
             return $resultado;
         }
         function modificarPerfilmodificarPerfil($conexion, $usuario, $password, $nombre, $Apellido1, $Apellido2, $Telefono, $email, $CodigoPostal, $Provincia, $ComunidadAutonoma, $FechaNacimiento, $Direccion, $Dni, $idUsuario){
-            $consulta = "UPDATE `usuario` SET `Usuario` = '$usuario', `Password` = '$password', `Nombre` = '$nombre', `Apellido1` = '$Apellido1', `Apellido2` = '$Apellido2', `Telefono` = '$Telefono', `Email` = '$email', `CodigoPostal` = '$CodigoPostal', `Provincia` = '$Provincia', `ComunidadAutonoma` = '$ComunidadAutonoma',`FechaNacimiento` = '$FechaNacimiento', `Direccion` = '$Direccion', `Dni` = '$Dni' WHERE(`idUsuario` = '$idUsuario')";
+            $consulta = "UPDATE `usuario` SET `Usuario` = '$usuario', `Password` = '$password', `Nombre` = '$nombre', `Apellido1` = '$Apellido1', `Apellido2` = '$Apellido2', `Telefono` = '$Telefono', `Email` = '$email', `CP` = '$CP', `Provincia` = '$Provincia', `ComunidadAutonoma` = '$ComunidadAutonoma',`Direccion` = '$Direccion', `Dni` = '$Dni', `FechaNacimiento` = '$FechaNacimiento' WHERE(`idUsuario` = '$idUsuario')";
             $resultado = mysqli_query($conexion, $consulta);
             return $resultado;
         }
