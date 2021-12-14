@@ -40,7 +40,10 @@ session_start();
             <th>CP</th>
             <th>Provincia</th>
             <th>ComunidadAutonoma</th>
+            <th>Direccion</th>
             <th>Rol</th>
+            <th>DNI</th>
+            <th>FechaNacimiento</th>
          
         </tr>
         <!-- Recoge los datos de la base de datos -->
@@ -55,7 +58,10 @@ session_start();
             <td> <?php echo $_SESSION['CP'] ?></td>
             <td> <?php echo $_SESSION['Provincia'] ?></td>
             <td> <?php echo $_SESSION['ComunidadAutonoma'] ?></td>
+            <td> <?php echo $_SESSION['Direccion'] ?></td>
             <td> <?php echo $_SESSION['Rol'] ?></td>
+            <td> <?php echo $_SESSION['DNi'] ?></td>
+            <td> <?php echo $_SESSION['FechaNacimiento'] ?></td>
             <td> <button ><a href="eliminarperfil.php?idUsuario=<?php  echo $_SESSION['idUsuario'];?>" value="eliminar" name="eliminar">Eliminar usuario</button></td>
             <td> <button ><a href="modificarPerfil.php?idUsuario=<?php  echo $_SESSION['idUsuario'];?>" value="modificar" name="modificar">Modificar</button></td>
         <tr> 
