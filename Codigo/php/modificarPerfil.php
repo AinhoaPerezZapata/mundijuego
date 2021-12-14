@@ -33,31 +33,31 @@ $idUsuario = $_GET['idUsuario'];
             <div class="card-body">
                 <form action="actualizarperfil.php" method="POST" enctype="multipart/form-data">
                     <label>Usuario</label><br>
-                    <input type="text" class="" name="Usuario"require><br>
+                    <input type="text" class="" name="usuario"require><br>
                     <label>Password</label><br>
-                    <input type="password" class="" name="Password"require><br>
+                    <input type="password" class="" name="password"require><br>
                     <label>Nombre</label><br>
-                    <input type="text" class="" name="Nombre"require><br>
+                    <input type="text" class="" name="nombre"require><br>
                     <label>Apellido1</label><br>
-                    <input type="text" class="" name="Apellido1"require><br>
+                    <input type="text" class="" name="apellido1"require><br>
                     <label>Apellido2</label><br>
-                    <input type="text" class="" name="Apellido2"require><br>
+                    <input type="text" class="" name="apellido2"require><br>
                     <label>Telefono</label><br>
-                    <input type="number" class="" name="Telefono"require><br>
+                    <input type="number" class="" name="telefono"require><br>
                     <label>Email</label><br>
-                    <input type="email" class="" name="Email"require><br>
+                    <input type="email" class="" name="email"require><br>
                     <label>CP</label><br>
-                    <input type="number" class="" name="CP"require><br>
+                    <input type="number" class="" name="codigopostal"require><br>
                     <label>Provincia</label><br>
-                    <input type="text" class="" name="Provincia"require><br>
+                    <input type="text" class="" name="provincia"require><br>
                     <label>ComunidadAutonoma</label><br>
-                    <input type="text" class="" name="ComunidadAutonoma"require><br>
+                    <input type="text" class="" name="comunidadautonoma"require><br>
                     <label>Direccion</label><br>
-                    <input type="text" class="" name="Direccion"require><br>
+                    <input type="text" class="" name="direccion"require><br>
                     <label>Dni</label><br>
-                    <input type="text" class="" name="Dni"require><br>
+                    <input type="text" class="" name="dni"require><br>
                     <label>FechaNacimiento</label><br>
-                    <input type="text" class="" name="FechaNacimiento"require><br>
+                    <input type="text" class="" name="fechanacimiento"require><br>
 
                     <input type="submit" value="Modificar">
                     <input type="hidden" name="idUsuario" value="<?php echo $idUsuario?>">
