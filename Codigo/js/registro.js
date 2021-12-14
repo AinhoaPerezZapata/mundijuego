@@ -111,12 +111,14 @@ function validarContrasena(){
     }
 }
 function validarTelefono(){
-	if(expresiones.telefono.test(telefono.value)){
+    if (expresiones.telefono.test(telefono.value)) {
         $("#telefono__error").css("visibility", "hidden");
-	}else{
-        $("#telefono__error").css("visibility", "hidden");
+
+    }else{
+        $("#telefono__error").css("visibility", "visible");
         $("#telefono__error").css("color", "red");
-	}	
+    }
+
 }
 
 function validarCodigopostal(){
