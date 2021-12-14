@@ -46,7 +46,6 @@ error_reporting(E_ALL);
 		
 		?>
 		<?php 
-      if($mostrar['Plataforma']=="10"){
       ?>
 	<div class="card" style="width: 20rem;">
 		<img class="imagen" src="<?php echo $mostrar['Imagen'] ?>" class="card-img-top">
@@ -65,7 +64,6 @@ error_reporting(E_ALL);
 			</td>
 	</div>
     <?php 
-  		}
      ?>
 
 
