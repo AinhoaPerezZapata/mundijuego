@@ -9,20 +9,22 @@ $conexion = conectar(false);
         
 //Usamos las variables que vamos a coger
 
-$usuario= $_POST['Usuario'];
-$password = $_POST['Password'];
-$nombre = $_POST['Nombre'];
-$Apellido1 = $_POST['Apellido1'];
-$Apellido2 = $_POST['Apellido2'];
-$Telefono = $_POST['Telefono'];
-$email = $_POST['Email'];
-$CP = $_POST['CP'];
-$Provincia = $_POST['Provincia'];
-$ComunidadAutonoma = $_POST['ComunidadAutonoma'];
+$usuario= $_POST['usuario'];
+$password = $_POST['password'];
+$nombre = $_POST['nombre'];
+$Apellido1 = $_POST['apellido1'];
+$Apellido2 = $_POST['apellido2'];
+$Telefono = $_POST['telefono'];
+$email = $_POST['email'];
+$CP = $_POST['codigopostal'];
+$Provincia = $_POST['provincia'];
+$ComunidadAutonoma = $_POST['comunidadAutonoma'];
+$FechaNacimiento = $_POST['fechanacimiento'];
+$Direccion = $_POST['direccion'];
 $idUsuario = $_POST['idUsuario'];
 //Nos conectamos a la consulta con la variable y los datos que necesitamos
 
-$consulta = modificarPerfil($conexion, $usuario, $password, $nombre, $Apellido1, $Apellido2, $Telefono, $email, $CP, $Provincia, $ComunidadAutonoma,  $idUsuario);      
+$consulta = modificarPerfil($conexion, $usuario, $password, $nombre, $Apellido1, $Apellido2, $Telefono, $email, $CP, $Provincia, $ComunidadAutonoma, $FechaNacimiento, $Direccion, $idUsuario);      
 if($consulta){
         $consulta2=consultaUsuarios($conexion, $usuario);
         $usuario=mysqli_fetch_assoc($consulta2);
