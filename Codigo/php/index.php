@@ -33,6 +33,10 @@ session_start();
           <?php if(!isset($_SESSION["Usuario"])) {?>
             <a href="../login.html">Iniciar Sesión</a>
             <a href="../ingresar_usuario.html">Registrarse</a>
+	    <form action="buscador.php" method="post">
+	<input type="text" placeholder="Buscar" name="Buscar">
+	<button type="submit" name="submit">Buscar</button>
+	</form>
 
           <?php } 
           ?>
@@ -50,10 +54,7 @@ session_start();
           <?php }
           ?>
       <!-- Busqueda -->
-	<form action="buscador.php" method="post">
-		<input type="text" placeholder="Buscar" name="Buscar">
-		<button type="submit" name="submit">Buscar</button>
-	</form>
+
 	</nav>
     <hr>
 <nav class="nav-main2">
