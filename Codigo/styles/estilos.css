@@ -45,13 +45,14 @@ p{
   justify-content: space-between;
   align-items: center;
   height: 60px;
-  padding: 5px;
+  padding: 20px;
   position: sticky;
   top: 0;
   background-image: url(../img/fondo3.png);
   width: 100%;
   z-index: 999;
   text-align: center;
+  
 }
 .nav-main2 {
   font-size: 17px;
