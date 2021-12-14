@@ -21,10 +21,11 @@ $Provincia = $_POST['provincia'];
 $ComunidadAutonoma = $_POST['comunidadautonoma'];
 $FechaNacimiento = $_POST['fechanacimiento'];
 $Direccion = $_POST['direccion'];
+$Dni = $_POST['dni'];
 $idUsuario = $_POST['idUsuario'];
 //Nos conectamos a la consulta con la variable y los datos que necesitamos
 
-$consulta = modificarPerfil($conexion, $usuario, $password, $nombre, $Apellido1, $Apellido2, $Telefono, $email, $CodigoPostal, $Provincia, $ComunidadAutonoma, $FechaNacimiento, $Direccion, $idUsuario);      
+$consulta = modificarPerfil($conexion, $usuario, $password, $nombre, $Apellido1, $Apellido2, $Telefono, $email, $CodigoPostal, $Provincia, $ComunidadAutonoma, $FechaNacimiento, $Direccion, $Dni, $idUsuario);      
 if($consulta){
         $consulta2=consultaUsuarios($conexion, $usuario);
         $usuario=mysqli_fetch_assoc($consulta2);
