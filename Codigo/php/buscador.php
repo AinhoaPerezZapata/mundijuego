@@ -2,30 +2,32 @@
 ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
+require 'BD/conectorBD.php';
+require 'BD/DAONoticia.php';
 ?>
+
 <!doctype html>
 <html lang="es">
 <?php
 if (empty($_POST['submit'])) {
     $busquedaArticulo = $_POST['Buscar'];
-
-
-        $mostrarNoticias = "SELECT * FROM Noticia WHERE idNoticias  AND Titulo  LIKE '%$busquedaArticulo%'" ;
-
-        $result = $conexion->query($mostrarNoticias);
-        while ($row = $result->fetch_assoc()) {
+    
+$conexion = conectar(false);
+$consulta = mostrarNoticias($conexion);
+    
+        while ($mostrar=mysqli_fetch_array($consulta)){
             
          ?>
     
                     <td><?php echo "Titulo Noticia " ?></td>
-                    <td><?php echo $row['Titulo'] ?></td>
+                    <td><?php echo $mostrar['Titulo'] ?></td>
                     <br>
                     <td><?php echo "Plataforma: " ?></td>
-                    <td><?php echo $row['NombreP'] ?></td>
+                    <td><?php echo $mostrar['NombreP'] ?></td>
                     <br>
 
     <br>
-        <tr><td><?php echo $row['Descripcion'] ?></td></tr>
+        <tr><td><?php echo $mostrar['Descripcion'] ?></td></tr>
     </div> 
 <?php 
     }    
