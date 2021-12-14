@@ -105,10 +105,10 @@ function validarContrasena(){
         $("#contrasena__error").css("visibility", "hidden");
 
     }else{
-        $("#contrasena__error").css("visibility", "hidden");
+        $("#contrasena__error").css("visibility", "visible");
         $("#contrasena__error").css("color", "red");
-
     }
+
 }
 function validarTelefono(){
     if (expresiones.telefono.test(telefono.value)) {
