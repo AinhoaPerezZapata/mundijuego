@@ -29,7 +29,7 @@ session_start();
 <body>
 <div class="container">
     <nav class="nav-main1">
-      <img src="../img/logo/logo.png" class="nav-brand">
+      <img src="../img/logo/logo.png">
           <?php if(!isset($_SESSION["Usuario"])) {?>
             <a href="../login.html">Iniciar Sesión</a>
             <a href="../ingresar_usuario.html">Registrarse</a>
