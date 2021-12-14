@@ -52,6 +52,12 @@ $idUsuario = $_GET['idUsuario'];
                     <input type="text" class="" name="Provincia"require><br>
                     <label>ComunidadAutonoma</label><br>
                     <input type="text" class="" name="ComunidadAutonoma"require><br>
+                    <label>Direccion</label><br>
+                    <input type="text" class="" name="Direccion"require><br>
+                    <label>Dni</label><br>
+                    <input type="text" class="" name="Dni"require><br>
+                    <label>FechaNacimiento</label><br>
+                    <input type="text" class="" name="FechaNacimiento"require><br>
 
                     <input type="submit" value="Modificar">
                     <input type="hidden" name="idUsuario" value="<?php echo $idUsuario?>">
