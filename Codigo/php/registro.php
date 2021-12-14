@@ -13,7 +13,7 @@ require 'BD/DAOUsuarios.php';
 $Usuario = $_POST['usuario'];
 $Nombre = $_POST['nombre'];
 $Password = $_POST['contrasena'];
-$Apellido1 = $_POST['apellido1'];
+$Apellido1 = $_POST['apellidos'];
 $Apellido2 = $_POST['apellido2'];
 $Email = $_POST['email'];
 $DNi = $_POST['dni'];
