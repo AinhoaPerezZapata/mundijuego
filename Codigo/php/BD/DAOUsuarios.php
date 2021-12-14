@@ -27,8 +27,10 @@
             $_SESSION['CP']=$usuario['CP'];
             $_SESSION['Provincia']=$usuario['Provincia'];
             $_SESSION['ComunidadAutonoma']=$usuario['ComunidadAutonoma'];
-		$_SESSION['Rol']=$usuario['Rol'];
-		$_SESSION['FechaNacimiento']=$usuario['FechaNacimiento'];
+            $_SESSION['Direccion']=$usuario['Direccion'];
+	    $_SESSION['Rol']=$usuario['Rol'];
+	    $_SESSION['Dni']=$usuario['DNi'];
+	    $_SESSION['FechaNacimiento']=$usuario['FechaNacimiento'];
 
     
         }
