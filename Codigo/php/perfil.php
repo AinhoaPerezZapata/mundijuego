@@ -60,7 +60,7 @@ session_start();
             <td> <?php echo $_SESSION['ComunidadAutonoma'] ?></td>
             <td> <?php echo $_SESSION['Direccion'] ?></td>
             <td> <?php echo $_SESSION['Rol'] ?></td>
-            <td> <?php echo $_SESSION['DNi'] ?></td>
+            <td> <?php echo $_SESSION['Dni'] ?></td>
             <td> <?php echo $_SESSION['FechaNacimiento'] ?></td>
             <td> <button ><a href="eliminarperfil.php?idUsuario=<?php  echo $_SESSION['idUsuario'];?>" value="eliminar" name="eliminar">Eliminar usuario</button></td>
             <td> <button ><a href="modificarPerfil.php?idUsuario=<?php  echo $_SESSION['idUsuario'];?>" value="modificar" name="modificar">Modificar</button></td>
