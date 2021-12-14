@@ -248,6 +248,10 @@ hr {
     width: 10px;
     
 }
+.video{
+  width=850px;
+  height=500px;
+}
 /* Follow */
 .social {
   margin: 50px;
