@@ -12,7 +12,7 @@ require 'BD/DAOUsuarios.php';
 //Usamos las variables que vamos a coger
 $Usuario = $_POST['usuario'];
 $Nombre = $_POST['nombre'];
-$Password = $_POST['password'];
+$Password = $_POST['contrasena'];
 $Apellido1 = $_POST['apellido1'];
 $Apellido2 = $_POST['apellido2'];
 $Email = $_POST['email'];
