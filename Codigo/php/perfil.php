@@ -25,7 +25,8 @@ session_start();
     <div align="right"><img src="../img/logo/logo.png"></div>
     <a href="../php/index.php">Inicio</a> 
     <a href="index.php">Atras</a>
-    </nav> 
+    </nav>
+    </div
 
         <div class="contenedor ">
     <table border="1" class="table table-dark">
