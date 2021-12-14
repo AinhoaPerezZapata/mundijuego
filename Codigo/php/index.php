@@ -190,7 +190,7 @@ session_start();
     </section>
 
     <hr></hr>
-    <div class="video">
+    <div class="container-fluid">
             <section class="contacto row justify-content-center">
                 <div class="col-12 col-md-9 text-center">
                     <h2 class="subtitulo"><span>Video Destacado</span></h2>
