@@ -56,7 +56,7 @@ session_start();
 	</form>
 	</nav>
     <hr>
-
+<nav class="nav-main2">
         <li>
           <a href="noticiasvj.php">PC</a>
         </li>
@@ -70,6 +70,7 @@ session_start();
           <a href="noticiasnintendo.php">Nintendo</a>
         </li>
       </ul>
+	</nav>
     <hr>
     <!-- Banner -->
     <header class="banner1">
