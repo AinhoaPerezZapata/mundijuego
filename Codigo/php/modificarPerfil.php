@@ -11,8 +11,7 @@ require "BD/conectorBD.php";
 $conexion = conectar(false);
 //Obtenemos el apartado que queremos utilizar.
 $idUsuario = $_GET['id'];
-echo ($idUsuario);
-die;
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
