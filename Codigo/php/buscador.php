@@ -41,7 +41,7 @@ error_reporting(E_ALL);
 		$consulta = buscador($conexion, $articulo);
     
 	//Recorre la consulta y muestra la información
-
+echo($articulo);
 		while ($mostrar=mysqli_fetch_array($consulta)) {
 		
 		?>
