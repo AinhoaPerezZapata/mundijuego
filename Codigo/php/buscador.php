@@ -13,7 +13,7 @@ if (empty($_POST['submit'])) {
     $busquedaArticulo = $_POST['Buscar'];
     
 $conexion = conectar(false);
-$consulta = mostrarNoticias($conexion);
+$consulta = buscador($conexion, $busquedaArticulo);
     
         while ($mostrar=mysqli_fetch_array($consulta)){
             
