@@ -213,6 +213,22 @@ function validardni() {
         document.getElementById("dni__error").style.color = "red";
      }
   }
+function validarDireccion(){
+	if(expresiones.direccion.test(direccion.value)){
+		document.getElementById('direccion__error').style.visibility = "hidden";
+	}else{
+		document.getElementById('direccion__error').style.visibility = "visible";
+		document.getElementById('direccion__error').style.color = "red";
+	}	
+}
+function validarFechaNacimiento(){
+	if(expresiones.fechanacimiento.test(fechanacimiento.value)){
+		document.getElementById('fechanacimiento__error').style.visibility = "hidden";
+	}else{
+		document.getElementById('fechanacimiento__error').style.visibility = "visible";
+		document.getElementById('fechanacimiento__error').style.color = "red";
+	}	
+}
  // funcion para el boton que almacena todas las funciones
 function pulsarBoton(){
     validarUsuario();
