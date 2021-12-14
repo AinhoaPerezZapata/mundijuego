@@ -5,10 +5,10 @@ require 'BD/DAOUsuarios.php';
 
 //Usamos las variables que vamos a coger
 $Usuario = $_POST['usuario'];
-$Password = $_POST['password'];
+$Password = $_POST['contrasena'];
 $Email = $_POST['email'];
 $DNi = $_POST['dni'];
-$Apellido1 = $_POST['apellido1'];
+$Apellido1 = $_POST['apellidos'];
 $Apellido2 = $_POST['apellido2'];
 $ComunidadAutonoma = $_POST['comunidadautonoma'];
 $Nombre = $_POST['nombre'];
