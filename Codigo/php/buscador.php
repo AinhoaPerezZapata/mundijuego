@@ -63,8 +63,6 @@ error_reporting(E_ALL);
 				</ul>
 			</td>
 	</div>
-    <?php 
-     ?>
 
 
 		<?php
