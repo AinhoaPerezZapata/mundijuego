@@ -18,7 +18,6 @@
         <nav class="nav-main1">
             <div align="left"><img src="../img/logo/logo.png"></div>
             <a href="index.php">Inicio</a>
-            <a id="link" class="nav-link active" aria-current="page" href="../login.html">Login</a>
         </nav> 
         <div class="container">
         <div class="row m-0 justify-content-center align-items-center vh-100">
