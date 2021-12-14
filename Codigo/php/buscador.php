@@ -1,3 +1,6 @@
+
+!doctype html>
+<html lang="es">
 <?php
 if (empty($_POST['submit'])) {
     $busquedaArticulo = $_POST['Buscar'];
@@ -9,8 +12,6 @@ if (empty($_POST['submit'])) {
         while ($row = $result->fetch_assoc()) {
             
          ?>
-!doctype html>
-<html lang="es">
     
                     <td><?php echo "Titulo Noticia " ?></td>
                     <td><?php echo $row['Titulo'] ?></td>
@@ -22,9 +23,8 @@ if (empty($_POST['submit'])) {
     <br>
         <tr><td><?php echo $row['Descripcion'] ?></td></tr>
     </div> 
-</html>
 <?php 
     }    
 }
 ?>
-
+</html>
