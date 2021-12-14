@@ -331,7 +331,7 @@ hr {
   }
 }
 /* Mediaqueries */
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 600px) {
   .news-cards {
     grid-template-columns: 5px;
   }
