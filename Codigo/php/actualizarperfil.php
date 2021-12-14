@@ -23,34 +23,7 @@ $FechaNacimiento = $_POST['fechanacimiento'];
 $Direccion = $_POST['direccion'];
 $Dni = $_POST['dni'];
 $idUsuario = $_POST['idUsuario'];
-echo($usuario);
-echo("<br>");
-echo($password);
-echo("<br>");
-echo($nombre);
-echo("<br>");
-echo($Apellido1);
-echo("<br>");
-echo($Apellido2);
-echo("<br>");
-echo($Telefono);
-echo("<br>");
-echo($email);
-echo("<br>");
-echo($CodigoPostal);
-echo("<br>");
-echo($Provincia);
-echo("<br>");
-echo($ComunidadAutonoma);
-echo("<br>");
-echo($FechaNacimiento);
-echo("<br>");
-echo($Direccion);
-echo("<br>");
-echo($Dni);
-echo("<br>");
-echo($idUsuario);
-echo("<br>");
+
 //Nos conectamos a la consulta con la variable y los datos que necesitamos
 
 $consulta = modificarPerfil($conexion, $usuario, $password, $nombre, $Apellido1, $Apellido2, $Telefono, $email, $CodigoPostal, $Provincia, $ComunidadAutonoma, $FechaNacimiento, $Direccion, $Dni, $idUsuario);      
