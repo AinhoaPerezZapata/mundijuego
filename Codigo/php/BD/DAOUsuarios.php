@@ -75,8 +75,8 @@
             $resultado = mysqli_query($conexion, $consulta);
             return $resultado;
         }
-        function modificarPerfil($conexion, $usuario, $password, $nombre, $Apellido1, $Apellido2, $Telefono, $email, $CodipoPostal, $Provincia, $ComunidadAutonoma, $FechaNacimiento, $Direccion, $idUsuario){
-            $consulta = "UPDATE `usuario` SET `Usuario` = '$usuario', `Password` = '$password', `Nombre` = '$nombre', `Apellido1` = '$Apellido1', `Apellido2` = '$Apellido2', `Telefono` = '$Telefono', `Email` = '$email', `CodigoPostal` = '$CodigoPostal', `Provincia` = '$Provincia', `ComunidadAutonoma` = '$ComunidadAutonoma',`FechaNacimiento` = '$FechaNacimiento', `Direccion` = '$Direccion' WHERE(`idUsuario` = '$idUsuario')";
+        function modificarPerfilmodificarPerfil($conexion, $usuario, $password, $nombre, $Apellido1, $Apellido2, $Telefono, $email, $CodigoPostal, $Provincia, $ComunidadAutonoma, $FechaNacimiento, $Direccion, $Dni, $idUsuario){
+            $consulta = "UPDATE `usuario` SET `Usuario` = '$usuario', `Password` = '$password', `Nombre` = '$nombre', `Apellido1` = '$Apellido1', `Apellido2` = '$Apellido2', `Telefono` = '$Telefono', `Email` = '$email', `CodigoPostal` = '$CodigoPostal', `Provincia` = '$Provincia', `ComunidadAutonoma` = '$ComunidadAutonoma',`FechaNacimiento` = '$FechaNacimiento', `Direccion` = '$Direccion', `Dni` = '$Dni' WHERE(`idUsuario` = '$idUsuario')";
             $resultado = mysqli_query($conexion, $consulta);
             return $resultado;
         }
