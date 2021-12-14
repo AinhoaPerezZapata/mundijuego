@@ -11,6 +11,8 @@ const codigopostal = document.getElementById('codigopostal');
 const provincia = document.getElementById('provincia');
 const comunidadautonoma = document.getElementById('comunidadautonoma');
 const apellido2 = document.getElementById("apellido2");
+const direccion = document.getElementById("direccion");
+const fechanacimiento = document.getElementById("fechanacimiento");
 const errorUsuario=document.getElementById("usuario__error");
 
 
@@ -26,6 +28,8 @@ $("#comunidadautonoma__error").css("visibility", "hidden");
 $("#telefono__error").css("visibility", "hidden");
 $("#apellido2__error").css("visibility", "hidden");
 $("#email__error").css("visibility", "hidden");
+$("#direccion__error").css("visibility", "hidden");
+$("#fechanacimiento__error").css("visibility", "hidden");
 
 //constante para las expresiolnes regulares
 const expresiones = {
@@ -39,8 +43,9 @@ const expresiones = {
     telefono: /^\d{9}$/,
     codigopostal: /^[0-9]{2}-? ?[0-9]{3}$/,
     provincia: /^[a-zA-Z]{}/,
-    comunidadautonoma: /^[a-zA-Z]{4,}/
-    
+    comunidadautonoma: /^[a-zA-Z]{4,}/,
+    direccion: /^[a-zA-ZÀ-ÿ0-9.\s?-]{5,100}$/,
+    fechanacimiento: /^[0-9]{4}[-]{1}[0-9]{2}[-]{1}[0-9]{2}/
 }
 //funcion validar usuarios 
 function validarUsuario(){
@@ -220,7 +225,10 @@ function pulsarBoton(){
     validarTelefono();
     validarCodigopostal();
     validarProvincia();
-	validarComunidadAutonoma();
+    validarComunidadAutonoma();
+	validarDireccion();
+	validarFechaNacimiento();
+	
 }
 //oyentes de eventos
 usuario.addEventListener("keyup", validarUsuario);
@@ -249,3 +257,7 @@ codigopostal.addEventListener("blur", validarCP1);
 codigopostal.addEventListener("keyup", validarCP1);
 codigopostal.addEventListener("blur", validarCP2);
 codigopostal.addEventListener("keyup", validarCP2);
+direccion.addEventListener("keyup", validarDireccion);
+direccion.addEventListener("blur", validarDireccion);
+fechanacimiento.addEventListener("keyup", validarFechaNacimiento);
+fechanacimiento.addEventListener("blur", validarFechaNacimiento);
