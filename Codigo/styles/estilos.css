@@ -248,7 +248,9 @@ hr {
     width: 10px;
     
 }
-
+.video{
+  margin: 50px;
+}
 
 /* Follow */
 .social {
