@@ -44,7 +44,7 @@ const expresiones = {
     codigopostal: /^[0-9]{2}-? ?[0-9]{3}$/,
     provincia: /^[a-zA-Z]{}/,
     comunidadautonoma: /^[a-zA-Z]{4,}/,
-    direccion: /^[a-zA-ZÀ-ÿ0-9.\s?-]{5,100}$/,
+    direccion: /^[a-zA-ZÀ-ÿ0-9.\s?\-]{5,100}$/,
     fechanacimiento: /^[0-9]{4}[-/]{1}[0-9]{2}[-/]{1}[0-9]{2}$/
 }
 //funcion validar usuarios 
