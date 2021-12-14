@@ -23,7 +23,8 @@ $Provincia = $_POST['provincia'];
 $ComunidadAutonoma = $_POST['comunidadautonoma'];
 $Direccion = $_POST['direccion'];
 $FechaNacimiento = $_POST['fechanacimiento'];
-
+echo $Usuario;
+die;
 //Nos conectamos a la base de datos y a la consulta
 $conexion = conectar(false);
 $consulta = insertarUsuarios($conexion,$Usuario,$Password,$Email,$DNi,$Apellido1,$Apellido2,$ComunidadAutonoma,$Nombre,$Telefono,$CP, $Direccion, $Provincia, $FechaNacimiento);
