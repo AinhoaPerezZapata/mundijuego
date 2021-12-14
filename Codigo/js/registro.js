@@ -121,7 +121,7 @@ function validarTelefono(){
 
 function validarCodigopostal(){
 	if(expresiones.codigopostal.test(codigopostal.value)){
-		document.getElementById('codigoposstal__error').style.visibility = "hidden";
+		document.getElementById('codigopostal__error').style.visibility = "hidden";
 	}else{
 		document.getElementById('codigopostal__error').style.visibility = "visible";
 		document.getElementById('codigopostal__error').style.color = "red";
