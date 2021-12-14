@@ -5,7 +5,7 @@
             return $resultado;
         }
         function buscador($conexion, $noticia){
-            $consulta = "SELECT * FROM Noticias WHERE idNoticias >0 AND NombreP  LIKE '%$noticia%'";
+            $consulta = "SELECT * FROM Noticias WHERE NombreP  LIKE '%$noticia%'";
             $resultado = mysqli_query($conexion, $consulta);
             return $resultado;
         }
