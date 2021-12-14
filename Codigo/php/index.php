@@ -198,7 +198,8 @@ session_start();
         <!-- lorem 20 -->
         <h2>20 PRÓXIMOS JUEGOS PS4/PS5/XBOX ONE/SERIES X/PC PARA 2021</h2>
         <div style= text-align:center;><iframe width="850" height="400"  src="https://www.youtube.com/embed/eE0NoRDXpsY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      </div>
+		    </div>
+		    </div>
     </section>
 
     <div class="container-fluid">
