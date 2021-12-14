@@ -75,8 +75,8 @@
             $resultado = mysqli_query($conexion, $consulta);
             return $resultado;
         }
-        function modificarPerfil($conexion, $usuario, $password, $nombre, $Apellido1, $Apellido2, $Telefono, $email, $CP, $Provincia, $ComunidadAutonoma,  $idUsuario){
-            $consulta = "UPDATE `usuario` SET `Usuario` = '$usuario', `Password` = '$password', `Nombre` = '$nombre', `Apellido1` = '$Apellido1', `Apellido2` = '$Apellido2', `Telefono` = '$Telefono', `Email` = '$email', `CP` = '$CP', `Provincia` = 'Provincia', `ComunidadAutonoma` = '$ComunidadAutonoma' WHERE(`idUsuario` = '$idUsuario')";
+        function modificarPerfilmodificarPerfil($conexion, $usuario, $password, $nombre, $Apellido1, $Apellido2, $Telefono, $email, $CP, $Provincia, $ComunidadAutonoma, $FechaNacimiento, $Direccion, $idUsuario){
+            $consulta = "UPDATE `usuario` SET `Usuario` = '$usuario', `Password` = '$password', `Nombre` = '$nombre', `Apellido1` = '$Apellido1', `Apellido2` = '$Apellido2', `Telefono` = '$Telefono', `Email` = '$email', `CP` = '$CP', `Provincia` = 'Provincia', `ComunidadAutonoma` = '$ComunidadAutonoma',`FechaNacimiento` = '$FechaNacimiento', `Direccion` = '$Direccion' WHERE(`idUsuario` = '$idUsuario')";
             $resultado = mysqli_query($conexion, $consulta);
             return $resultado;
         }
