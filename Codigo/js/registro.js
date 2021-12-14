@@ -36,7 +36,7 @@ const expresiones = {
     usuario: /^[a-zA-Z0-9\_\-]{6,}$/,
     email:  /^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$/,
     dni: /^[0-9]{8}[A-Za-z]$/,
-    contrasena: /^(?=.{8,}$)(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*\W).*$/,
+    contrasena: /^(?=.[A-Z])(?=.\d)(?=.[$@$!%?&])[A-Za-z\d$@$!%*?&]{8,}$/,
     apellidos: /^[a-zA-Z\_\-]{2,}$/,
     apellido2: /^[a-zA-Z\_\-]{2,}$/,
     nombre:/^[a-zA-Z\_\-]{2,}$/,
