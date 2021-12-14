@@ -15,7 +15,7 @@ if (empty($_POST['submit'])) {
 $conexion = conectar(false);
 $consulta = buscador($conexion, $busquedaArticulo);
     
-        while ($mostrar=mysqli_fetch_array($consulta)){
+        while ($mostrar=mysqli_fetch_assoc($consulta)){
             
          ?>
     
