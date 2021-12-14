@@ -21,7 +21,7 @@ const errorUsuario=document.getElementById("usuario__error");
 $("#usuario__error").css("visibility", "hidden");
 $("#contrasena__error").css("visibility", "hidden");
 $("#dni__error").css("visibility", "hidden");
-$("#apellido__error").css("visibility", "hidden");
+$("#apellidos__error").css("visibility", "hidden");
 $("#nombre__error").css("visibility", "hidden");
 $("#codigopostal__error").css("visibility", "hidden");
 $("#provincia__error").css("visibility", "hidden");
