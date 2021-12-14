@@ -46,8 +46,10 @@ p{
   align-items: center;
   height: 60px;
   padding: 5px;
+  position: sticky;
   top: 0;
   background-image: url(../img/fondo3.png);
+  
 
 }
 .nav-main2 {
