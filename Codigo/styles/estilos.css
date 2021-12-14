@@ -333,7 +333,7 @@ hr {
 /* Mediaqueries */
 @media screen and (max-width: 480px) {
   .news-cards {
-    grid-template-columns: 5px;
+    grid-template-columns: 500px;
   }
 
   .cards-banner-one .content,
