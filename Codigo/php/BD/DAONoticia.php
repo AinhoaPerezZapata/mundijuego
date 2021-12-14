@@ -5,7 +5,7 @@
             return $resultado;
         }
         function buscador($conexion, $noticia){
-            $consulta = "SELECT * FROM noticias WHERE Titulo AND Descripcion LIKE '%$noticia%'";
+            $consulta = "SELECT * FROM noticias WHERE Titulo LIKE '%$noticia%' AND Descripcion LIKE '%$noticia%'";
             $resultado = mysqli_query($conexion, $consulta);
             return $resultado;
         }
