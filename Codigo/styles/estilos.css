@@ -317,5 +317,7 @@ hr {
   text-decoration: none;
   width: 1%;
 }
-
+  .video{
+    width: 400;
+    height:250;
 }
