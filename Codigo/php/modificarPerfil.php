@@ -10,7 +10,7 @@ require "BD/conectorBD.php";
 //Nos conectamos a la base de datos
 $conexion = conectar(false);
 //Obtenemos el apartado que queremos utilizar.
-$idUsuario = $_GET['idUsuario'];
+$idUsuario = $_GET['id'];
 
 ?>
 <!DOCTYPE html>
