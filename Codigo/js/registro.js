@@ -36,7 +36,7 @@ const expresiones = {
     apellidos: /^[a-zA-Z\_\-]{2,}$/,
     apellido2: /^[a-zA-Z\_\-]{2,}$/,
     nombre:/^[a-zA-Z\_\-]{2,}$/,
-    telefono: /^[0-9]{9}/,
+    telefono: /^\d{9}$/,
     codigopostal: /^[0-9]{2}-? ?[0-9]{3}$/,
     provincia: /^[a-zA-Z]{}/,
     comunidadautonoma: /^[a-zA-Z]{4,}/
