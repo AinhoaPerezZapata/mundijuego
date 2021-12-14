@@ -56,7 +56,7 @@ session_start();
             <td> <?php echo $_SESSION['Apellido2'] ?></td>
             <td> <?php echo $_SESSION['Telefono'] ?></td>
             <td> <?php echo $_SESSION['Email'] ?></td>
-            <td> <?php echo $_SESSION['CP'] ?></td>
+            <td> <?php echo $_SESSION['CodigoPostal'] ?></td>
             <td> <?php echo $_SESSION['Provincia'] ?></td>
             <td> <?php echo $_SESSION['ComunidadAutonoma'] ?></td>
             <td> <?php echo $_SESSION['Direccion'] ?></td>
